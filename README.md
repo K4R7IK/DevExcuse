@@ -14,8 +14,8 @@ Make sure the following dependencies are installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/K4R7IK/devexcuse-generator.git
-   cd devexcuse-generator
+   git clone https://github.com/K4R7IK/devexcuse.git
+   cd devexcuse
    ```
 
 2. Make the script executable:
@@ -38,6 +38,8 @@ The script will fetch a development excuse from the DevExcus.es API and store it
 
 - `API_URL`: The DevExcus.es API endpoint.
 - `DATA_FILE`: The path to the JSON file for storing excuses.
+
+You can configure your desired location where you want to store your devExcuse.json file.
 
 ## Acknowledgments
 
