@@ -11,25 +11,18 @@ Make sure the following dependencies are installed on your system:
 
 ## Installation
 
-1. Clone the repository:
+Run the command below:
 
-   ```bash
-   git clone https://github.com/K4R7IK/devexcuse.git
-   cd devexcuse
-   ```
-
-2. Make the script executable:
-
-   ```bash
-   chmod +x devexcuse.sh
-   ```
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/K4R7IK/DevExcuse/master/install.sh)"
+```
 
 ## Usage
 
 Run the script:
 
 ```bash
-./devexcuse.sh
+devexcuse
 ```
 
 The script will fetch a development excuse from the DevExcus.es API and store it locally in a JSON file (`~/.config/devExcuse.json`). If an excuse with the same ID already exists in the file, the excuse will not be saved. Also when there is no internet connection the script will fetch a random excuse from local storage.
