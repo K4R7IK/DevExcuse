@@ -1,6 +1,6 @@
 # DevExcuse Generator
 
-A simple bash script to generate and store development excuses using the [DevExcus.es](https://devexcus.es/) API.
+A simple bash script to generate and store development excuses using the [DevExcus.es](https://api.devexcus.es/) API.
 
 ## Prerequisites
 
@@ -43,6 +43,6 @@ You can configure your desired location where you want to store your devExcuse.j
 
 ## Acknowledgments
 
-- [DevExcus.es](https://devexcus.es/) for providing the API.
+- [DevExcus.es](https://api.devexcus.es/) for providing the API.
 
 Feel free to contribute or open issues!
