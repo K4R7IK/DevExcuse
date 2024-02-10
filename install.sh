@@ -63,7 +63,11 @@ check_dependencies() {
 }
 
 check_dependencies
+echo "Installing Excuse database..."
+curl -fsSL https://raw.githubusercontent.com/K4R7IK/DevExcuse/master/excuse.json -o $HOME/.config/excuse.json
+
 echo "Installing devexcuse..."
 curl -fsSL https://raw.githubusercontent.com/K4R7IK/DevExcuse/master/devexcuse.sh -o $HOME/.local/bin/devexcuse
+
 echo "Setting executable permissions..."
 chmod +x $HOME/.local/bin/devexcuse
