@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-check() {
-	# Performs check if a command exists in the system
-	# sets the `$?` to 0 if the command exists, 1 otherwise
-	command -v "$1" &>/dev/null
-}
-
 check_dependencies() {
+
+	check() {
+		# Performs check if a command exists in the system
+		# sets the `$?` to 0 if the command exists, 1 otherwise
+		command -v "$1" &>/dev/null
+	}
 	# Checks if all dependencies are installed
 	for dep in "${dependencies[@]}"; do
 		if ! check "$dep"; then
